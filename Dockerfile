@@ -1,8 +1,6 @@
 FROM ubuntu:16.04
-#FROM openjdk:8-jre-alpine3.9
-#FROM nimmis/java:openjdk-8-jdk
 
-MAINTAINER nimmis <kjell.havneskold@gmail.com>
+MAINTAINER spaceshiptrip <4379326+spaceshiptrip@users.noreply.github.com>
 
 # SPIGOT_HOME         default directory for SPIGOT-server
 # SPIGOT_VER          default minecraft version to compile
@@ -47,6 +45,12 @@ RUN apt-get update && \
     # clean up
     rm -rf /var/lib/apt/lists/* && \
     rm -rf /var/cache/oracle-jdk8-installer;
+
+
+# Grab the latest BuildTools and build spigot
+RUN cd /usr/games/spigot
+RUN java -Xmx1024M -jar BuildTools.jar --rev latest
+
 
 # expose minecraft port
 EXPOSE 25565
