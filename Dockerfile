@@ -31,14 +31,22 @@ RUN apt-get update && \
     apt-get install -y wget git && \
 
     # install screen
-    apt-get intall -y screen && \
+    apt-get install -y screen && \
+
+    # install java
+    apt-get install -y openjdk-8-jdk && \
+	apt-get install -y ant && \
 
     # Make special user for minecraft to run in
     /usr/sbin/useradd -s /bin/bash -d /minecraft -m minecraft && \
 
     # remove apt cache from image
-    apt-get clean all
+    apt-get clean all && \
 
+
+    # clean up
+    rm -rf /var/lib/apt/lists/* && \
+    rm -rf /var/cache/oracle-jdk8-installer;
 
 # expose minecraft port
 EXPOSE 25565
