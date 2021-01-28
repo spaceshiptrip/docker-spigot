@@ -1,2 +1,5 @@
 .DS_Store
 spigot-server-penny*.tgz
+*.zip
+*.gz
+rootfs/usr/games/spigot/plugins/arch/*
