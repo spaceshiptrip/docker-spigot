@@ -1,0 +1,155 @@
+# Leia com atenção
+# Se você quiser alterar qualquer linha de qualquer arquivo, se o primeiro caractere
+# for começar com '&', coloque dentro de aspas simples "' '" ex: '&fGerador de Blaze'
+# Você é capaz de alterar o nome dos geradores, mas 2 geradores do mesmo tipo, porém com nomes diferentes
+# não irão se juntar no seu inventário
+Spawner_Name:
+  Bat: Gerador de Morcego
+  Bee: Gerador de Abelha
+  Blaze: Gerador de Blaze
+  Cat: Gerador de Gato
+  Cave_Spider: Gerador de Aranha das cavernas
+  Chicken: Gerador de Galinha
+  Cod: Gerador de Bacalhau
+  Cow: Gerador de Vaca
+  Creeper: Gerador de Creeper
+  Dolphin: Gerador de Golfinho
+  Donkey: Gerador de Burro
+  Drowned: Gerador de Afogado
+  Elder_Guardian: Gerador de Guardião mestre
+  Ender_Dragon: Gerador de Dragão do end
+  Enderman: Gerador de Enderman
+  Endermite: Gerador de Endermite
+  Evoker: Gerador de Invocador
+  Fox: Gerador de Raposa
+  Ghast: Gerador de Ghast
+  Giant: Gerador de Giant
+  Guardian: Gerador de Guardião
+  Hoglin: Gerador de Hoglin
+  Horse: Gerador de Cavalo
+  Husk: Gerador de Zumbi-Múmia
+  Illusioner: Gerador de Illusioner
+  Iron_Golem: Gerador de Golem de Ferro
+  Lavagante: Gerador de Lavagante
+  Llama: Gerador de Lhama
+  Magma_Cube: Gerador de Cubo de Magma
+  Mooshroom: Gerador de Coguvaca
+  Mule: Gerador de Mula
+  Ocelot: Gerador de Jaguatirica
+  Panda: Gerador de Panda
+  Parrot: Gerador de Papagaio
+  Phantom: Gerador de Phantom
+  Pig: Gerador de Porco
+  Piglin-Zumbi: Gerador de Piglin-Zumbi
+  Piglin: Gerador de Piglin
+  Piglin_Brute: Gerador de Piglin Bárbaro
+  Pillager: Gerador de Saqueador
+  Polar_Bear: Gerador de Urso-Polar
+  Pufferfish: Gerador de Baiacú
+  Rabbit: Gerador de Coelho
+  Ravager: Gerador de Devastador
+  Salmon: Gerador de Salmão
+  Sheep: Gerador de Ovelha
+  Shulker: Gerador de Shulker
+  Silverfish: Gerador de Traça
+  Skeleton: Gerador de Esqueleto
+  Skeleton_Horse: Cavalo-Esqueleto
+  Slime: Gerador de Slime
+  Snow_Golem: Gerador de Snowman
+  Spider: Gerador de Aranha
+  Squid: Gerador de Lula
+  Stray: Gerador de Esqueleto-Errante
+  Trader_Llama: Gerador de Lhama do vendedor
+  Tropical_Fish: Gerador de Peixe-Tropical
+  Turtle: Gerador de Tartaruga
+  Vex: Gerador de Vex
+  Villager: Gerador de Aldeão
+  Vindicator: Gerador de Vingador
+  Wandering_Trader: Gerador de Vendedor Ambulante
+  Witch: Gerador de Bruxa
+  Wither: Gerador de Wither
+  Wither_Skeleton: Gerador de Esqueleto Wither
+  Wolf: Gerador de Lobo
+  Zoglin: Gerador de Zoglin
+  Zombie: Gerador de Zumbi
+  Zombie_Horse: Gerador de Cavalo-Zumbi
+  Zombie_Pigman: Gerador de Homem-Porco-Zumbi
+  Zombie_Villager: Gerador de Aldeão Zumbi
+
+# Leia com muito mais atenção
+# Você pode mudar o Lore dos geradores como quiser, mas se você ja tem geradores no seu inventário
+# ou no seu baú, que não estão colocados obviamente, trocando o lore abaixo, seus geradores não vão funcionar
+# pois eles tem o lore antigo, diferente desses que você mudou abaixo
+# Se você quiser alterar esses lores, recomendo que faça isso no início do seu servidor, enquanto ninguém tem geradores
+Spawner_Lore:
+  Bat: '&eTipo: &aMorcego, &eDono: &f%owner%'
+  Bee: '&eTipo: &aAbelha, &eDono: &f%owner%'
+  Blaze: '&eTipo: &aBlaze, &eDono: &f%owner%'
+  Cat: '&eTipo: &aGato, &eDono: &f%owner%'
+  Cave_Spider: '&eTipo: &aAranha das cavernas, &eDono: &f%owner%'
+  Chicken: '&eTipo: &aGalinha, &eDono: &f%owner%'
+  Cod: '&eTipo: &aBacalhau, &eDono: &f%owner%'
+  Cow: '&eTipo: &aVaca, &eDono: &f%owner%'
+  Creeper: '&eTipo: &aCreeper, &eDono: &f%owner%'
+  Dolphin: '&eTipo: &aGolfinho, &eDono: &f%owner%'
+  Donkey: '&eTipo: &aBurro, &eDono: &f%owner%'
+  Drowned: '&eTipo: &aAfogado, &eDono: &f%owner%'
+  Elder_Guardian: '&eTipo: &aGuardião mestre, &eDono: &f%owner%'
+  Ender_Dragon: '&eTipo: &aDragão do end, &eDono: &f%owner%'
+  Enderman: '&eTipo: &aEnderman, &eDono: &f%owner%'
+  Endermite: '&eTipo: &aEndermite, &eDono: &f%owner%'
+  Evoker: '&eTipo: &aInvocador, &eDono: &f%owner%'
+  Fox: '&eTipo: &aRaposa, &eDono: &f%owner%'
+  Ghast: '&eTipo: &aGhast, &eDono: &f%owner%'
+  Giant: '&eTipo: &aGiant, &eDono: &f%owner%'
+  Guardian: '&eTipo: &aGuardião, &eDono: &f%owner%'
+  Hoglin: '&eTipo: &aHoglin, &eDono: &f%owner%'
+  Horse: '&eTipo: &aCavalo, &eDono: &f%owner%'
+  Husk: '&eTipo: &aZumbi-Múmia, &eDono: &f%owner%'
+  Illusioner: '&eTipo: &aIllusioner, &eDono: &f%owner%'
+  Iron_Golem: '&eTipo: &aGolem de Ferro, &eDono: &f%owner%'
+  Lavagante: '&eTipo: &aLavagante, &eDono: &f%owner%'
+  Llama: '&eTipo: &aLhama, &eDono: &f%owner%'
+  Magma_Cube: '&eTipo: &aCubo de Magma, &eDono: &f%owner%'
+  Mooshroom: '&eTipo: &aCoguvaca, &eDono: &f%owner%'
+  Mule: '&eTipo: &aMula, &eDono: &f%owner%'
+  Ocelot: '&eTipo: &aJaguatirica, &eDono: &f%owner%'
+  Panda: '&eTipo: &aPanda, &eDono: &f%owner%'
+  Parrot: '&eTipo: &aPapagaio, &eDono: &f%owner%'
+  Phantom: '&eTipo: &aPhantom, &eDono: &f%owner%'
+  Pig: '&eTipo: &aPorco, &eDono: &f%owner%'
+  Piglin-Zumbi: '&eTipo: &aPiglin-Zumbi, &eDono: &f%owner%'
+  Piglin: '&eTipo: &aPiglin, &eDono: &f%owner%'
+  Piglin_Brute: '&eTipo: &aPiglin Bárbaro, &eDono: &f%owner%'
+  Pillager: '&eTipo: &aSaqueador, &eDono: &f%owner%'
+  Polar_Bear: '&eTipo: &aUrso-Polar, &eDono: &f%owner%'
+  Pufferfish: '&eTipo: &aBaiacú, &eDono: &f%owner%'
+  Rabbit: '&eTipo: &aCoelho, &eDono: &f%owner%'
+  Ravager: '&eTipo: &aDevastador, &eDono: &f%owner%'
+  Salmon: '&eTipo: &aSalmão, &eDono: &f%owner%'
+  Sheep: '&eTipo: &aOvelha, &eDono: &f%owner%'
+  Shulker: '&eTipo: &aShulker, &eDono: &f%owner%'
+  Silverfish: '&eTipo: &aTraça, &eDono: &f%owner%'
+  Skeleton: '&eTipo: &aEsqueleto, &eDono: &f%owner%'
+  Skeleton_Horse: '&eTipo: &aCavalo-Esqueleto, &eDono: &f%owner%'
+  Slime: '&eTipo: &aSlime, &eDono: &f%owner%'
+  Snow_Golem: '&eTipo: &aSnowman, &eDono: &f%owner%'
+  Spider: '&eTipo: &aAranha, &eDono: &f%owner%'
+  Squid: '&eTipo: &aLula, &eDono: &f%owner%'
+  Stray: '&eTipo: &aEsqueleto-Errante, &eDono: &f%owner%'
+  Trader_Llama: '&eTipo: &aLhama do vendedor, &eDono: &f%owner%'
+  Tropical_Fish: '&eTipo: &aPeixe-Tropical, &eDono: &f%owner%'
+  Turtle: '&eTipo: &aTartaruga, &eDono: &f%owner%'
+  Vex: '&eTipo: &aVex, &eDono: &f%owner%'
+  Villager: '&eTipo: &aAldeão, &eDono: &f%owner%'
+  Vindicator: '&eTipo: &aVingador, &eDono: &f%owner%'
+  Wandering_Trader: '&eTipo: &aVendedor Ambulante, &eDono: &f%owner%'
+  Witch: '&eTipo: &aBruxa, &eDono: &f%owner%'
+  Wither: '&eTipo: &aWither, &eDono: &f%owner%'
+  Wither_Skeleton: '&eTipo: &aEsqueleto Wither, &eDono: &f%owner%'
+  Wolf: '&eTipo: &aLobo, &eDono: &f%owner%'
+  Zoglin: '&eTipo: &aZoglin Zumbi, &eDono: &f%owner%'
+  Zombie: '&eTipo: &aZumbi, &eDono: &f%owner%'
+  Zombie_Horse: '&eTipo: &aCavalo-Zumbi, &eDono: &f%owner%'
+  Zombie_Pigman: '&eTipo: &aHomem-Porco-Zumbi, &eDono: &f%owner%'
+  Zombie_Villager: '&eTipo: &aAldeão Zumbi, &eDono: &f%owner%'

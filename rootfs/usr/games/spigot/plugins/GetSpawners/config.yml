@@ -1,0 +1,78 @@
+# Select zone, date & time format to write data in logs.txt file always a player mine an original spawner; you can also change/translate the output message
+Log:
+  Enabled: true
+  ZoneId: 'America/Chicago' #https://docs.oracle.com/middleware/12212/wcs/tag-ref/MISC/TimeZones.html
+  DatePattern: 'MM-dd-yyyy'
+  TimePattern: 'HH:mm:ss z'
+  Output: '%player_name% (%player_uuid%) mined a(n) %spawned_type% spawner in (%world_name%: %x% %y% %z%) at: %date% %time%'
+
+# If enabled is set as true, it will allow to mine spawners with or without enchantments, just any netherite pickaxe
+# If silk_touch_required is set as true, you'll mine only if your netherite pick have been enchanted with silk touch
+Netherite_Pickaxe:
+  Enabled: true
+  Silk_Touch_Required: true
+
+
+# If enabled is set as true, it will allow to mine spawners with or without enchantments, just any diamond pickaxe
+# If silk_touch_required is set as true, you'll mine only if your diamond pick have been enchanted with silk touch
+Diamond_Pickaxe:
+  Enabled: true
+  Silk_Touch_Required: true
+
+
+# Iron pickaxe option true, means it will allow to mine spawners with or without enchantmentes, just any iron pickaxe
+# If silk_touch_required true, you'll mine only if your iron pick have been enchanted with silk touch
+# If enabled option is set to false, silk_touch_required will be irrelevant
+Iron_Pickaxe:
+  Enabled: false
+  Silk_Touch_Required: false
+
+
+# The option to allow mob spawners change
+# By right clicking spawner with a spawn egg in main hand to change it, is the default as natively
+# Using this option you can turn it off, if wanted
+Allow_SpawnEgg_Change:
+  Enabled: true
+
+
+# Prevent spawner change while player is invisible by SuperVanish plugin
+SuperVanish_Prevent_SpawnEgg_Change:
+  Enabled: true
+
+
+# Enables, disables custom names for mobs which was spawned by a not original spawner (placed by a player spawner)
+Custom_Name_For_gsMobs:
+  Enabled: false
+
+
+# Set custom name visible true to always see the name above mob head, otherwise only if aiming the mob
+Always_Visible_Name:
+  Enabled: true
+
+
+# Exp gained from mobs which have been spawned from a not original spawner, (placed by a player spawner) will get an operation by these values
+# Killing a gs mob, you'll get the default exp amount, calculated by the operations below
+Dropped_Exp_From_gsMobs:
+  Enabled: false
+# Set multiply to 0 by disable exp
+  Multiply: 1
+# Divide value equals 0 will receive 1
+  Divide: 0 #1
+  Subtract: 0
+  Add: 0
+
+
+# Experience gained from an original mob which have been spawned from an original vanilla spawner, it will get an operation by these values
+# If enabled is set to true, killing a mob, you'll get the default exp amount, calculated by the operations below
+Dropped_Exp_From_Vanilla_Mobs:
+  Enabled: false
+# Set multiply to 0 by disable exp
+  Multiply: 1
+# Divide value equals 0 will receive 1
+  Divide: 0 #1
+  Subtract: 0
+  Add: 0
+
+
+# Set plugin messages and names language; availables languages: 'en', 'pt_BR'
+Language: en

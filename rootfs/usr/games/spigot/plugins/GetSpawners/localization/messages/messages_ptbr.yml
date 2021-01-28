@@ -1,0 +1,101 @@
+# Se você quiser alterar qualquer linha de qualquer arquivo desse plugin, se o primeiro caractere
+# for começar com '&', coloque dentro de aspas simples "' '" ex: '&aIniciado com sucesso!'
+
+Plugin:
+# Este é o prefíxo que irá aparecer sempre que o plugin enviar uma mensagem
+  Prefix: '&f[&eGet&3Spawners&f]'
+  
+Console_Messages:
+# Mensagem que aparece quando o plugin é iniciado
+  Plugin_Enabled: '&aIniciado com sucesso!'
+  
+# Mensagem enviada para quem recarregou o plugin, quando o mesmo é recarregado
+  Plugin_Reloaded: '&aRecarregado com sucesso!'
+  
+Messages:
+# Esta mensagem aparece quando um jogador quem possui permissões de porcentagem de chance de
+# dropar geradores, minera um gerador e tem a sorte de dropá-lo
+  Lucky: '&bBoa, Sortudo ! ! !'
+  
+# Esta mensagem aparece quando um jogador quem possui permissões de porcentagem de chance de
+# dropar geradores, minera um gerador, é azarado e não dropa um gerador
+  Unlucky: '&cMais sorte da próxima vez.'
+  
+# Esta mensagem irá ser exibida ao jogador que tentar dropar um gerador sem a ferramenta
+# correta permitida
+  Warning: '&cVocê não pode dropar geradores com esse tipo de ferramenta.'
+  
+# Quando o jogador não tiver permissão para realizar uma ação com geradores
+# esta é a mensagem a ser exibida
+  No_Permission: '&cVocê não tem permissão para fazer isso.'
+  
+# Quando o jogador não tiver permissão para dropar um tipo de gerador específico, essa é a
+# mensagem a ser exibida
+  No_Mob_Permission: '&cVocê não tem permissão para dropar um %spawner_name%.'
+  
+# Se você tentar enviar um gerador para um player que não está online no servidor, esta
+# mensagem será enviada
+  Player_Not_Found: '&cO jogador não foi encontrado online no servidor.'
+  
+# Mensagem de comando inválido
+  Invalid_Command: '&cComando inválido: &6Uso: /gs give <jogador> <tipo_de_gerador> <quantidade>'
+  
+# Mensagem de gerador enviado por comando com sucesso
+  Gave: '&aVocê deu &6%amount%&r %spawner_name% &apara &f%player%.'
+  
+# Mensagem de gerador recebido através de comando com sucesso
+  Received: '&aVocê recebeu &6%amount%&r %spawner_name% &ade &f%sender%.'
+  
+# Nomes dos tipos de geradores disponíveis
+  Mob_Names: '&eTipos de geradores:'
+  
+# Dica de comandos disponíveis
+  Commands_Hint: '&eComandos disponíveis:'
+  
+# A mensagem que anuncia a troca de tipo de um gerador através de um ovo
+  Changed_Spawner: '&fAlterado %placed_spawner% &fpara %new_spawner%.'
+  
+# Se a opção de alterar tipos de geradores estiver desativada, essa mensagem irá avisá-lo
+  No_Change_Enabled: '&cVocê não pode fazer isso porque a opção de alterar tipos de geradores com ovo está desativada no arquivo config.yml.'
+  
+# Se você tiver o plugin GriefPrevention instalado, essa mensagem
+# irá aparecer para jogadores que tentarem mudar o tipo de gerador com um ovo, em
+# uma área protegida por GriefPrevention em que não tem permissão
+  GriefPrevention_Compat_No_Interact: '&2Área protegida por GriefPrevention; &cVocê não tem permissão para interagir com este bloco.'
+  
+# Se você tiver o plugin Residence instalado, essa mensagem irá aparecer para jogadores que tentarem
+# mudar o tipo de gerador com um ovo, em uma área protegida por Residence em que não tem permissão
+  Residence_Compat_No_Interact: '&6Área protegida por Residence; &cVocê não tem permissão para interagir com este bloco.'
+  
+# Se você tiver o plugin WorldGuard instalado, essa mensagem irá aparecer para jogadores que tentarem
+# mudar o tipo de gerador com um ovo, em uma área protegida por WorldGuard em que não tem permissão
+  WorldGuard_Compat_No_Interact: '&3Área protegida por WorldGuard; &c&lOpa! &7Desculpe, mas você não pode interagir com este bloco.'
+  
+# Se você tiver o plugin WorldGuard instalado, essa mensagem irá aparecer para jogadores que tentarem
+# quebrar o gerador, em uma área protegida por WorldGuard em que não tem permissão
+  WorldGuard_Compat_No_Break: '&3WorldGuard protected area; &c&lHey! &c&lOpa! &7Desculpe, mas você não pode quebrar este bloco.'
+  
+# Se você tiver o plugin Towny instalado, essa mensagem irá aparecer para jogadores que tentarem
+# mudar o tipo de gerador com um ovo, em uma área protegida por Towny em que não tem permissão
+  Towny_Compat_No_Interact: '&5Área protegida por Towny; &cNão é permitido interação com este bloco.'
+  
+# Se você tiver o plugin SuperVanish instalado, essa mensagem irá aparecer para jogadores
+# invisíveis que tentarem mudar o tipo de gerador com um ovo, enquanto a opção
+# SuperVanish_Prevent_SpawnEgg_Change estiver ativada no aquivo config.yml
+  SuperVanish_Compat_No_Interact: '&cVocê não pode alterar geradores enquanto estiver invisível por &aSuperVanish, &cporque esta opção está ativada no arquivo config.yml.'
+  
+# Esta mensagem irá aparecer para jogadores que tentarem empilhar mais geradores do que o
+# limite máximo em um bloco.
+  Stack_Limit_Warning: '&cVocê alcançou o limite máximo ao empilhar geradores.'
+  
+# Esta mensagem irá aparecer quando um jogador emitir o comando gs debug e remover nomes de geradores bugados sem geradores
+  Bug_Removed_Announce: '&eBug removido, o nome %hologram_name% sem um spawner se foi.'
+  
+# Esta mensagem irá aparecer mostrando a quantidade de nomes bugados removidos
+  Bug_Removed_Amount: '&eRemovido &a%amount% &enomes de geradores bugados sem geradores.'
+  
+# Escolha se quer ver quantos exps um monstro gs dropa em sua morte
+Announce_Dropped_Exp:
+  Enabled: false
+# Mensagem a ser exibida para o jogador que matou uma criatura contendo a quantidade de exp dropado
+  Message: '&aMatou &6%mob_name% &a%dropped_exp% exp dropado.'
